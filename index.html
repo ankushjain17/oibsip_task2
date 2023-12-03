@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Sachin Tendulkar</title>
+    <link rel="stylesheet" href="link.css" type="text/css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" />
+</head>
+<style>
+    @import url('/css/font.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+nav {
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #2d3436;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li a {
+    float: right;
+    text-decoration: none;
+    font-weight: bold;
+    color: royalblue;
+    transition: all 0.5s;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+blockquote {
+    padding-top: 0;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: black;
+}
+
+#home{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    
+    text-align: center;
+    font-size: 40pt;
+    color: indigo;
+}
+
+#lcolumn {
+    float: left;
+}
+
+#rcolumn{
+    padding-top: 200px;
+    margin-right: 50px;
+}
+
+#image {
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 100%;
+    height: 70vh;
+}
+
+button {
+    color: indigo;
+    margin-top: 1.5rem;
+    margin-left: 11rem;
+}
+
+
+#homedf{
+    margin:0;
+    display: float;
+    height: 113vh;
+}
+
+#tribute-info{
+    margin-bottom: 0px;
+    height: 70vh;
+}
+
+#row2{
+    padding-top: 100px;
+}
+
+#rcolumn2 {
+    width: 100%;
+    margin: 0;
+}
+
+#lcolumn2 {
+    display: none;
+}
+
+#worse {
+    margin-top: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+    justify-content: center;
+    width: auto;
+}
+
+#title{
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    padding-top: 15px;
+    background-color: #2d3436;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+
+.scicon {
+    width: 50px;
+    height: 50px;
+}
+
+.bg-red {
+    background-color: #df292d;
+    color: #fff;
+}
+
+.social-ul a {
+    font-size: 32px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#follow {
+    width: 100%;
+    margin: 0;
+    padding-top: 2px;
+    height: 14vh;
+}
+
+#follow h2{
+    padding-bottom: 10px;
+}
+
+footer{
+    margin-bottom: 0;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+#fh3 {
+    text-align: center;
+    color: white;
+}
+
+.container1 {
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+
+.container1 li{
+    padding-right: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    nav{
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    #image{
+        width: 100%;
+        display: block;
+        height: 50%;
+    }
+
+    #image1{
+        height: auto;
+        width: 100%;
+    }
+
+    #rcolumn{
+        display: block;
+        height: 100vh;
+        width: 100%;
+    }
+
+    #rcolumn2{
+            display: block;
+            text-align: center;
+            width: 100%;
+            padding-bottom: 40px;
+    }
+
+    #tribute-info{
+        margin: 0;
+        height: 205vh;
+    }
+
+    #worse {
+        margin-top: 0px;
+        padding-right: 30px;
+        padding-left: 30px;
+        text-align: justify;
+        justify-content: center;
+        width: auto;
+    }
+
+    #homedf{
+        margin: 0;
+        height: 130vh;
+    }
+
+    #lcolumn2 {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+    p {
+        text-align: justify;
+        width: auto;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #follow{
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    footer{
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    #tribute-info {
+        height: 290vh;
+    }
+
+    #homedf {
+        height: 180vh;
+    }
+
+    #follow {
+        height: 16vh;
+    }
+
+}
+</style>
+
+<body>
+            <div class="row">
+                <nav>
+                    <div class="container">
+                    <ul>
+                        <li>
+                            <a href="#home">HOME</a></li>
+                        <li>
+                            <a href="#tribute-info">TRIBUTE</a></li>
+                        <li>
+                            <a href="#follow">FOLLOW</a></li>
+                    </ul>
+                </div>
+                </nav>
+            </div>
+        </div>
+    <main id="main">
+        <section id="home">
+            <figure id="img-div">
+                <figcaption id="img-caption"><br/>
+                    <blockquote>" Peraphs the most complete batsman and the most worshipped cricketer in the world, Tendulkar holds just about every batting record worth owning in the game, including those for most runs and hundreds in Tests and ODIs, and most international
+                        runs. "
+                    </blockquote>
+                    <img src="images/jpeg.jpg" alt="srt" id="image">
+                </figcaption>
+            </figure>
+        </section>
+        <section id="homedf">
+            <div id="row1">
+                <div id="lcolumn">
+                    <img src="images/s65.png" alt="Sachin Tendulkar" id="image1">
+                </div>
+                <div id="rcolumn">
+                    <h1 id="title">Sachin Tendulkar</h1><br/>
+                    <div id="fcont">
+                        <p>Sachin Ramesh Tendulkar (born 24 April 1973) is an former international cricketer and former captain of the Indian national team. He is widely regarded as one of the greatest batsmen in the history of men's cricket. He is
+                            the highest run scorer of all time in International cricket. Sachin Tendulkar is the leading run scorer in Tests, with 15,921 runs, as well as in One-Day Internationals, with 18,426 runs. <br><br> He is the only player to
+                            score more than 30,000 runs in all forms of international cricket (Tests, ODIs and Twenty20 Internationals). He is the 16th player and the first Indian to score 50,000 runs in all forms of domestic and international recognised
+                            cricket (First-class, List A and Twenty20). Sachin Tendulkar has been the most complete batsman of his time, the most prolific runmaker of all time, and arguably the biggest cricket icon the game has ever known. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tribute-info">
+            <div id="row2">
+                <div id="rcolumn2">
+                    <h1 id="title">Master Blaster</h1><br/><br/>
+                    <div id="fcont">
+                        <p id="worse">He also holds the record of the highest number of centuries in both Tests (51) and ODIs (49) as well as in Tests and ODIs combined (100). On 16<sup>th</sup> March 2012, Tendulkar scored his 100th international hundred. It came
+                            against Bangladesh in the league matches of Asia Cup 2012. He is also the only player to score fifty centuries in Test cricket, and the first to score fifty centuries in all international cricket combined. He also
+                            holds the world record for playing the highest number of Test matches (200) and ODI matches (463).<br><br> Tendulkar has scored over 1000 runs in a calendar year in ODIs 7 times, and in 1998 he scored 1,894 runs, the record for the
+                            highest number of runs scored by any player in a single calendar year for One-Day Internationals. He is the first male cricketer to score a double-century in one-day cricket. Tendulkar has consistently done well in
+                            Cricket World Cups. He was the highest run scorer of the 1996 Cricket World Cup with a total of 523 runs and also of the 2003 Cricket World Cup with 673 runs. In 2011 WC, he became the player to hit most centuries in Cricket
+                            World Cups with six centuries and the first player to score 2000 runs in World Cup cricket.Tendulkar has scored over 1000 runs in a calendar year in ODIs 7 times, and in 1998 he scored 1,894 runs, the record for the
+                            highest number of runs scored by any player in a single calendar year for One-Day Internationals. He is the first male cricketer to score a double-century in one-day cricket.<br><br><br>
+                            <h5 style="text-align: center;"><a id="tribute-link" href="https://en.wikipedia.org/wiki/Sachin_Tendulkar" target="_blank">More Info.</a></p>
+                        </h5>
+                    </div>
+                </div>
+                <div id="lcolumn2">
+                    <img src="images/d1.png" alt="Sachin Tendulkar" id="image1">
+                </div>
+            </div>
+        </section>
+        <section id="follow" class="bg-red">
+            <h2>Follow Sachin Tendulkar:</h2>
+            <ul class="container1 social-ul">
+                <li>
+                    <a href="https://www.facebook.com/SachinTendulkar/" target="_blank"><img src="icons/facebook.png" class="scicon"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/sachintendulkar/?hl=en" target="_blank"><img src="icons/instagram.png" class="scicon"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/sachin_rt?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="icons/twitter.png" class="scicon"></a>
+                </li>
+            </ul>
+        </section>
+        <footer>
+            <h5 id="fh3"> &#128150 by Ankush</h5>
+        </footer>
+    </main>
+</body>
+
+</html>
